@@ -147,9 +147,10 @@ img {
 .menu-link:focus::after {
   content: '';
   position: absolute;
+  display: inline-block;
   left: 0;
   bottom: -1;
-  width: 66px;
+  width: 48px;
   height: 4px;
   margin-top: 40px;
   background-color: var(--menu-links-accent);
