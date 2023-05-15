@@ -145,9 +145,8 @@ img {
 
 .menu-link:hover::after,
 .menu-link:focus::after {
-  position: absolute;
-  display: inline-block;
   content: '';
+  position: absolute;
   left: 0;
   bottom: -1;
   width: 66px;
