@@ -143,6 +143,9 @@ img {
   color: var(--menu-links-accent);
 }
 
+.menu-link.current-nav-link {
+  color: var(--menu-links-accent);
+}
 .current-nav-link::after {
   display: inline-block;
   content: '';
